@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Frontier Gold</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Frontier Gold Trading Post</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Trading Post</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <p class="small-title">CONTACT</p>
+        <h2>Ask the trail guide</h2>
+        <p>Need help, want to ask something, or just want to say hello? Leave your details and we’ll get back to you.</p>
+
+        <section class="contact-panel">
+            <div class="contact-copy">
+                <h3>Frontier Gold Trading Post</h3>
+                <ul>
+                    <li>Questions about your order</li>
+                    <li>Need help choosing a bundle</li>
+                    <li>Curious about upcoming supplies</li>
+                    <li>Want to send a message to the team</li>
+                </ul>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+                <label>
+                    Full name
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+
+                <label>
+                    Email address
+                    <input type="email" name="email" placeholder="you@example.com" required>
+                </label>
+
+                <label>
+                    Topic
+                    <select name="reason">
+                        <option value="General question">General question</option>
+                        <option value="Order help">Order help</option>
+                        <option value="Product question">Product question</option>
+                        <option value="Website feedback">Website feedback</option>
+                    </select>
+                </label>
+
+                <label>
+                    Your message
+                    <textarea name="message" placeholder="Write your question here..." required></textarea>
+                </label>
+
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Unofficial fan-made learning project. Not affiliated with Rockstar Games.</p>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>
