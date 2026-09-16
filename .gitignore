@@ -31,3 +31,5 @@ coverage/
 # Local temporary files
 .tmp/
 tmp/
+
+js/
