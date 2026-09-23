@@ -1,38 +1,40 @@
 # Frontier Gold Trading Post
 
-A small front-end learning project built with HTML, CSS, and JavaScript. It simulates a western-style storefront where users can browse products, add items to a cart, and submit a contact form.
+Peque&ntilde;o proyecto educativo de front-end creado con HTML, CSS y JavaScript. Simula una tienda ambientada en el oeste donde se pueden explorar productos, agregarlos al carrito y enviar un formulario de contacto.
 
-## Features
-- Responsive landing page and storefront layout
-- Product cards with add-to-cart functionality
-- Local cart saved in browser storage
-- Contact form interaction
-- Simple shopping cart flow with subtotal and removal actions
+## Funcionalidades
+- P&aacute;gina de inicio y tienda con dise&ntilde;o responsive
+- Tarjetas de productos con funci&oacute;n para agregar al carrito
+- Carrito local guardado en el almacenamiento del navegador
+- Formulario de contacto interactivo
+- Flujo simple de compra con subtotal y opci&oacute;n para quitar productos
+- Cuenta de demostraci&oacute;n con historial de compras guardado por usuario
 
-## Project structure
-- `index.html` - home page
-- `pages/shop.html` - product catalog
-- `pages/cart.html` - shopping cart
-- `pages/contact.html` - contact page
-- `css/style.css` - styling
-- `js/app.js` - interactive behavior
-- `images/` - visual assets
+## Estructura del proyecto
+- `index.html` - p&aacute;gina de inicio
+- `pages/shop.html` - cat&aacute;logo de productos
+- `pages/cart.html` - carrito de compras
+- `pages/contact.html` - p&aacute;gina de contacto
+- `pages/login.html` - inicio de sesi&oacute;n e historial de compras
+- `css/style.css` - estilos
+- `js/app.js` - comportamiento interactivo
+- `images/` - recursos visuales
 
-## Run locally
-1. Open the project folder in your browser.
-2. Open `pages/index.html` directly, or serve the folder with a local static server if you prefer.
+## Ejecutar localmente
+1. Abr&iacute; la carpeta del proyecto en VS Code.
+2. Abr&iacute; `pages/index.html` directamente o us&aacute; un servidor est&aacute;tico local.
 
-Example with Python:
+Ejemplo con Python:
 
 ```bash
 cd "c:/Users/franc/Desktop/FRONT END/Proyecto Cursada 2026 Front End"
 python -m http.server 8000
 ```
 
-Then visit: `http://localhost:8000/pages/index.html`
+Luego visit&aacute; `http://localhost:8000/pages/index.html`.
 
-## GitHub upload
-This project is ready to be initialized as a Git repository and pushed to GitHub.
+## Subir a GitHub
+El proyecto puede inicializarse como repositorio Git y subirse a GitHub.
 
 ```bash
 git init
@@ -40,7 +42,7 @@ git add .
 git commit -m "Initial commit"
 ```
 
-Then create a remote repository on GitHub and run:
+Luego cre&aacute; un repositorio remoto en GitHub y ejecut&aacute;:
 
 ```bash
 git branch -M main
@@ -48,5 +50,5 @@ git remote add origin https://github.com/your-username/your-repository.git
 git push -u origin main
 ```
 
-## Notes
-This is an educational project and is not affiliated with Rockstar Games.
+## Notas
+Este es un proyecto educativo y no est&aacute; afiliado a Rockstar Games.
