@@ -32,3 +32,6 @@ coverage/
 .tmp/
 tmp/
 
+# Keep this local working copy out of GitHub
+js/app.js
+
